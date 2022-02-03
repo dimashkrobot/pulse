@@ -1,0 +1,49 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &__logo {
+        width: 250px;
+    }
+
+    &__official {
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 12px;
+        text-align: center;
+        color: #FFFFFF;
+
+        span {
+            display: block;
+            font-size: 18px;
+            line-height: 29px;
+        }
+    }
+    &__phone{
+        display: block;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 18px;
+        text-align: right;
+        color: #FFFFFF;
+        &:hover {
+            color: #FFFFFF;
+            text-decoration: none;
+        }
+    }
+    &__button{
+        margin-top: 7px;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 19px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+    &__contacts {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+}

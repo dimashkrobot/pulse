@@ -1,0 +1,66 @@
+@media (max-width: 1087px) {
+    .promo__wrapper {
+        align-items: center;
+    }
+}
+
+@media (max-width: 991.98px) {
+
+}
+
+@media (max-width: 767.98px) {
+    .header__official {
+        display: none;
+    }
+    .promo__header {
+        text-align: center;
+    }
+    .promo__subheader {
+        text-align: center;
+    }
+    .promo__icons {
+        margin-top: 40px;
+    }
+    .button--main {
+        margin-top: 70px;
+    }
+    .button{
+        &:hover{
+            background: #C70101;
+        }
+    }
+}
+
+@media (max-width: 479.98px) {
+    .header__logo {
+        flex: 0 0 45px;
+        overflow: hidden;
+    }
+    .button--main{
+        width: 290px;
+    }
+    .promo__header{
+        font-size: 37px;
+        line-height: 37px;
+    }
+    .promo__subheader{
+        font-size: 22px;
+        line-height: 22px;
+        margin-top: 10px;
+    }
+
+    .consultation {
+        min-height: 740px;
+        padding: 75px 0;
+        &__description{
+            font-size: 17px;
+            line-height: 26px;
+        }
+    }
+    .title{
+        &--left{
+            font-size: 34px;
+            line-height: 43px;
+        }
+    }
+}
